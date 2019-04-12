@@ -1,8 +1,17 @@
+###################################################################################
+# Name:    utils: A Utility Python module
+# Purpose: This module provides various def functions for the FDIR Arrows ToolBox.
+# Author:  Timothy Davis
+# Since:   April 2, 2019
+###################################################################################
+
+
 import math
 import arcpy
 import numpy as np
 
 
+######### Main Code Block ##########
 
 
 def get_raster_coordinates(rc, ext, res):
