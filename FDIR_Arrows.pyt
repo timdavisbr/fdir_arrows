@@ -1,3 +1,16 @@
+###################################################################################
+# Name:       FDIR_Arrows: An arcpy toolbox module
+# Purpose:    This module was developed as a final project for 
+#             GISC 4500K - Application Development class. It takes a flow direction
+#             raster and draws polylines in the direction of flow for user 
+#             visualization. 
+# 
+# Author:     Timothy Davis
+# Co-Authors: Dr. Huidae Cho, Zac Miller 
+# Since:      April 2, 2019
+###################################################################################
+
+
 import math
 import arcpy
 import numpy as np 
@@ -100,13 +113,3 @@ class FlowDirectionArrows(object):
                               ext, 
                               res)
         return
- 
-
-
-        
-        
-        
-        
-        
-        
-        
